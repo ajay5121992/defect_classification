@@ -40,3 +40,6 @@ default = "/home/ajay/PycharmProjects/object_detection/resnet50_coco_best_v2.0.1
 Image_agumentation.py:- 
 
 Is used for data/image agumentation as noramlly the images supplied is not greater in number for deep learning so we uses DataAugmentationForObjectDetection library for image agumentation which conatins agumentation functions such as rotation, horizontal,vertical flip,sheared which takes the image with the bounding boxes array and returns the transformed image and new transformed bounding array's this way the data agumentation happens
+
+
+
