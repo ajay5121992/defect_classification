@@ -13,6 +13,7 @@ Is use for converting the XML files into csv with format as [filname,xmin,ymin,x
 the converted csv is used for training and validation, for making csv's train.csv,validation.csv,classes.csv[class_name,class_id]
 
 
+
 Train.py:-
 
 Is the retinanet training file which is present in keras-retinanet/keras_retinanet/bin/train.py and used for object-detection training, the file takes command line argument with special argument as:
@@ -33,6 +34,8 @@ default = "/home/ajay/PycharmProjects/object_detection/resnet50_coco_best_v2.0.1
 '--steps',            help='Number of steps per epoch.', type=int, default=106
 
 '--batch-size',       help='Size of the batches.', default=1, type=int
+
+
 
 Image_agumentation.py:- 
 
