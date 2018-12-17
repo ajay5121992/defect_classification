@@ -18,3 +18,5 @@ Train.py is the retinanet training file which is present in keras-retinanet/kera
 '--backbone',         help='Backbone model used by retinanet.', default='resnet50', type=str
 '--steps',            help='Number of steps per epoch.', type=int, default=106
 '--batch-size',       help='Size of the batches.', default=1, type=int
+
+Image_agumentation.py is used for data/image agumentation as noramlly the images supplied is not greater in number for deep learning so we uses DataAugmentationForObjectDetection library for image agumentation which conatins agumentation functions such as rotation, horizontal,vertical flip,sheared which takes the image with the bounding boxes array and returns the transformed image and new transformed bounding array's this way the data agumentation happens
