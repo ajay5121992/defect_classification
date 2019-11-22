@@ -53,4 +53,6 @@ default = "/home/ajay/PycharmProjects/object_detection/resnet50_coco_best_v2.0.1
 
 predict.pyis used for predicting the result of model trained by running it trained model,for whuch we have to convert the trained model into inference model
 
+Exmaple
+
 ![Screenshot](example_test_defect.png)
